@@ -1,0 +1,18 @@
+
+@keyframes animatedBackground {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+  
+body{
+    background-image: linear-gradient(to right, #3253AA, #4C32AA, #5084d1);
+    background-size: 200% auto;
+    animation: animatedBackground 20s infinite;
+}
