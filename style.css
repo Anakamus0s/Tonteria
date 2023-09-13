@@ -12,7 +12,27 @@
 }
   
 body{
-    background-image: linear-gradient(to right, #3253AA, #4C32AA, #5084d1);
+    background-image: linear-gradient(to left, #3253AA, #4C32AA, #5084d1);
     background-size: 200% auto;
     animation: animatedBackground 20s infinite;
+}
+
+h1.titulo1 {
+  color: white;
+  text-align: center;
+}
+
+div.divredes {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  color: #fff56f;
+  padding: 5px 16px;
+  border: 2px solid #00b5cc;
+  border-radius: 25px;
+  font-size: large;
 }
