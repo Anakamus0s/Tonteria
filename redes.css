@@ -9,16 +9,23 @@ body {
 }
 
 .tab-button {
-    background-color: #007BFF;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+    text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  color: #fff56f;
+  border-radius: 25px;
+  font-size: 150%;
+  color: rgb(255, 73, 73);
+  background-color: #234099;
+  border: 2px solid #0e193b;
+  cursor: pointer;
+  padding: 3px 10px;
 }
 
+
 .tab-button:hover {
-    background-color: #0056b3;
+    color: #234099;
+    background-color: rgb(255, 73, 73);
 }
 
 .pagina {
