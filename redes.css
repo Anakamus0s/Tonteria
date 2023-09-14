@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.tab-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.tab-button:hover {
+    background-color: #0056b3;
+}
+
+.pagina {
+    display: none;
+    text-align: center;
+    padding: 20px;
+}
+
+.pagina h1 {
+    font-size: 24px;
+}
+
+.pagina p {
+    font-size: 16px;
+}
